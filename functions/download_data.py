@@ -5,7 +5,6 @@ import os
 import zipfile
 import subprocess
 import shutil  # Make sure shutil is imported
-from google.colab import drive
 from pathlib import Path
 
 def download_data(dataset_name):
